@@ -1,0 +1,25 @@
+Name - Tikesh Kardate
+Branch - Mechanical
+Year - 4
+Placed - Capgemini
+
+String buffer and string reader
+StringBuffer and StringReader are both part of the Java programming language, but they serve different purposes.
+
+StringBuffer:
+
+Purpose: A StringBuffer is used for creating and manipulating modifiable strings. Unlike String, which is immutable, StringBuffer allows you to modify the content of the string without creating a new object.
+
+Thread Safety: StringBuffer is synchronized, meaning it's thread-safe and can be used in a multi-threaded environment without causing data corruption.
+
+Operations: It provides various methods to manipulate the string, such as append(), insert(), delete(), reverse(), and more.
+
+Performance: Because it's synchronized, StringBuffer can be slower than StringBuilder, which is another class for modifiable strings but without synchronization.
+
+StringReader:
+
+Purpose: StringReader is used to read strings as if they were input streams. It allows you to read from a string in a character-by-character manner, similar to reading from a file or input stream.
+
+Usage: You create a StringReader by passing a string to its constructor, and then you can use methods like read(), skip(), and close() to interact with the string.
+
+Example: This is useful for situations where you want to process a string using stream-based operations.
